@@ -177,12 +177,8 @@
           jsonLocalStorage.setItem("favorites", nextFavorite);
         }
 
-        function handleImg(event) {
-          event.preventDefault();
-          setImg(1);
-        }
-
         const counterTitle = counter === null ? "" : counter + "번째 ";
+
         return (
           <div>
             <Title>{counterTitle}고양이 가라사대</Title>
